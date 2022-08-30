@@ -5,16 +5,11 @@
       <artifact name="lesson44:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f773420-89a0-45eb-b583-baeec2116a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork4_java.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="1f773420-89a0-45eb-b583-baeec2116a30" name="Default Changelist" comment="added 2 classes Books and Employees" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571821427442</updated>
     </task>
+    <task id="LOCAL-00001" summary="added 2 classes Books and Employees">
+      <created>1661841500543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661841500543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,5 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added 2 classes Books and Employees" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2 classes Books and Employees" />
   </component>
 </project>
