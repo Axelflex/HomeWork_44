@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Title</title>
+    <link href="css/freemarker.css" rel="stylesheet">
+</head>
+<body>
+<div>${employee.name}</div>
+
+<ul>
+    <#list employees as employee>
+    <li class="${employee?item_parity}">${employee.name} <b>${employee.bookName!"-- задолжностей нет --"}</b></li>
+    </#list>
+</ul>
+<#list employees as employee>
+<div class="row ${employee?item_parity} flex">
+    <div class="column">
+        ${employee?counter}
+    </div>
+    <div class="column">
+        ${employee.name!"-- не указано --"}
+    </div>
+    <div class="column">
+        ${employee.lastName!"-- не указано --"}
+    </div>
+    <div class="column">
+        ${employee.middleName!"-- не указано --"}
+    </div>
+    <div class="column">
+        ${employee?item_parity}
+    </div>
+</div>
+</#list>
+
+</body>
+</html>

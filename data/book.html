@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Title</title>
+  <link href="css/freemarker.css" rel="stylesheet">
+</head>
+<body>
+
+<#list books as book>
+<div class="row ${book?item_parity} flex">
+
+    <div class="column">
+        <#if book?counter == 1>
+        ${book?counter}.${book.description!"-- не указано --"}
+        <#elseif book?counter == 2>
+        ${book.description!"-- не указано --"}
+        <#elseif book?counter == 3>
+        ${book.description!"-- не указано --"}
+        </#if>
+    </div>
+</div>
+</#list>
+</body>
+</html>
