@@ -9,12 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f773420-89a0-45eb-b583-baeec2116a30" name="Default Changelist" comment="added files from lesson 45">
+    <list default="true" id="1f773420-89a0-45eb-b583-baeec2116a30" name="Default Changelist" comment="added registration">
+      <change afterPath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/5a2a7058cf8d1e56c20e6b19a7c48eb2386d141b.tbres" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Microsoft/XboxLive/AuthStateCache.dat" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/v8-compile-cache/8.5.210.27-electron.0/CzCzBUserszBMaxzBAppDatazBLocalzBMicrosoftzBTeamszBcurrent.BLOB" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/v8-compile-cache/8.5.210.27-electron.0/CzCzBUserszBMaxzBAppDatazBLocalzBMicrosoftzBTeamszBcurrent.MAP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cookie.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Lesson46Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/server/Cookie.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/3881082f38af2dc871aad6ced0009ade57d2169f.tbres" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/3881082f38af2dc871aad6ced0009ade57d2169f.tbres" afterDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/6ec69b01332d9be433081dae9180e1c12d7683f9.tbres" beforeDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/c9c17c79bfa96de18776eab787057afb1676e7ee.tbres" beforeDir="false" afterPath="$USER_HOME$/AppData/Local/Microsoft/TokenBroker/Cache/c9c17c79bfa96de18776eab787057afb1676e7ee.tbres" afterDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Packages/Microsoft.XboxGamingOverlay_8wekyb3d8bbwe/AC/INetCache/5KT54WC1/providers[1].json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Packages/Microsoft.XboxGamingOverlay_8wekyb3d8bbwe/AC/INetCache/JQUMZOGP/ab[1].json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Packages/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/AC/INetCache/LF3N6VNY/th[1].jpg" beforeDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Local/Packages/MicrosoftWindows.Client.CBS_cw5n1h2txyewy/AC/INetCache/W74W05BU/th[1].svg" beforeDir="false" />
+      <change beforePath="$USER_HOME$/AppData/Roaming/Opera Software/Opera GX Stable/Code Cache/js/00f045b8595f1982_0" beforeDir="false" afterPath="$USER_HOME$/AppData/Roaming/Opera Software/Opera GX Stable/Code Cache/js/00f045b8595f1982_0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Lesson45Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Lesson45Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/server/BasicServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/server/BasicServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +44,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,16 +70,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -138,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662114316542</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added registration">
+      <created>1662115925152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662115925152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +182,7 @@
     <MESSAGE value="added 2 classes Books and Employees" />
     <MESSAGE value="added logic and output for classes Books and Employees" />
     <MESSAGE value="added files from lesson 45" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files from lesson 45" />
+    <MESSAGE value="added registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added registration" />
   </component>
 </project>

@@ -61,6 +61,7 @@ public class Employees {
     }
 
     public static class Employee{
+        private int id;
         private String name;
         private String lastName;
         private String middleName = null;

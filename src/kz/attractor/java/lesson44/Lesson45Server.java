@@ -7,6 +7,8 @@ import kz.attractor.java.server.Utils;
 
 import java.io.IOException;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class Lesson45Server extends Lesson44Server{
@@ -16,23 +18,27 @@ public class Lesson45Server extends Lesson44Server{
 
         registerGet("/login", this::loginGet);
         registerPost("/login", this::loginPost);
+        registerGet("/register", this::registerGet);
+        registerPost("/register", this::registerPost);
+        registerGet("/profile", this::profileGet);
+    }
+
+    private void profileGet(HttpExchange exchange) {
+        Path path = makeFilePath("profile.html");
+        sendFile(exchange, path, ContentType.TEXT_HTML);
+    }
+
+    private void registerPost(HttpExchange exchange) {
+        redirect303(exchange, "/login");
+    }
+
+    private void registerGet(HttpExchange exchange) {
+        Path path = makeFilePath("register.html");
+        sendFile(exchange, path, ContentType.TEXT_HTML);
     }
 
     private void loginPost(HttpExchange exchange) {
-//        String cType = getContentType(exchange);
-//        String raw = getBody(exchange);
-//
-//        Map<String, String> parsed = Utils.parseUrlEncoded(raw, "&");
-//
-//        String data = String.format("<p>необработанные данные<b>%s</b></p>" +
-//                "<p>Content-Type: <b>%s</b></p>"+
-//                "<p>После обработки: <b>%s</b></p>", raw, cType, parsed);
-//        try {
-//            sendByteData(exchange, ResponseCodes.OK, ContentType.TEXT_HTML, data.getBytes());
-//        }catch (IOException e){
-//            e.printStackTrace();
-//        }
-        redirect303(exchange, "/");
+        redirect303(exchange, "/profile");
     }
 
     private void loginGet(HttpExchange exchange) {
